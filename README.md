@@ -85,4 +85,4 @@ To build a fully functioning web page for visualizing and providing statistics o
 
 ## Summary
 
-This data scraping, parsing, and processing pipeline was implemented and ran for 1 month (July 2024). The project provides a reliable and automated way to fetch, extract, and store important data from both text and binary files. The daily scheduling ensures regular updates, while error handling and monitoring mechanisms maintain system stability and alert for potential failures.
+This data scraping, parsing, and processing pipeline was implemented and ran for 1 month (July 2024). The project provides a reliable and automated way to fetch, extract, and store important data from both text and binary files. The daily scheduling ensures regular updates, while error handling and monitoring mechanisms maintain system stability and prevent potential failures.
