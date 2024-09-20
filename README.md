@@ -1,7 +1,7 @@
 # data-scrapping-project
 Documentation: Data Scraping, Parsing, and Storage Process
 
-#1. Overview
+##1. Overview
 This document describes the process of scraping txt files and binary files, extracting/parsing relevant data, storing the parsed data in a database, and further processing it. The entire workflow is automated to run daily during off-peak hours using a scheduling mechanism.
 
 #2. Process Flow
