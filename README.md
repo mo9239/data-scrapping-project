@@ -16,7 +16,7 @@ The data pipeline consists of the following stages:
 ## 3. Detailed Steps
 
 ### 3.1 File Scraping
-- **Source**: Files (either `.txt` or binary) are fetched from a designated source, such as a directory, external storage, or a remote server.
+- **Source**: Files (either txt or binary) are fetched from a designated source, such as a directory, external storage, or a remote server.
 - **File Types**:
   - **.txt files**: Contain human-readable data.
   - **Binary files**: Require specific decoding/parsing methods.
@@ -26,7 +26,7 @@ The data pipeline consists of the following stages:
 
 - **Text Files**:
   - Text files are read line by line or as a whole, depending on the data structure.
-  - Use Python’s `open()` function to load the content and regular expressions (`re`) along with user-defined functions to extract relevant information.
+  - Use Python’s `open()` function to load the content and regular expressions (`re`) along with custom functions to extract relevant information.
 
 - **Binary Files**:
   - Binary files were parsed using specific mechanisms, such as Python's `struct` to unpack binary data. Custom functions were used for extracting metadata and specific binary-encoded values.
@@ -52,7 +52,7 @@ The data pipeline consists of the following stages:
   
 - **Stored Procedures**: Pre-defined database procedures can be triggered to process the stored data.
 
-- **Reporting**: After processing, reports may be generated for downstream systems or dashboards (e.g., using **matplotlib** or **plotly** for visualization).
+- **Reporting**: After processing, reports may be generated for downstream systems or dashboards (e.g., using **matplotlib**/**plotly** for visualization).
 
 ### 3.5 Scheduling
 
